@@ -2,6 +2,7 @@
 name: create-configuration-csv
 on:
   # this workflow runs on pushing to main, pull requests to main, and manually.
+  workflow_dispatch:
   push:
     paths:
       - 'data/configuration.rda'
